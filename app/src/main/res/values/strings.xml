@@ -2,10 +2,17 @@
     <string name="app_name">NotificacionesToast</string>
     <string name="Gravity">Gravity</string>
     <string name="Toast">Toast</string>
-    <string name="Costume">Costume</string>
+    <string name="Costum">Costum</string>
     <string name="TOAST">Toast</string>
     <string name="SNACKBAR">SnackBar</string>
     <string name="SNACKBARBtn">Snackbar</string>
     <string name="SNACKBARCOLOR">SnackBarColor</string>
-    <string name="CostumeSnackBar">Costume</string>
+    <string name="CostumSnackBar">Costum</string>
+    <string name="ALERT">Alert</string>
+    <string name="DIALOGUE">Dialogue</string>
+    <string name="OPTION">Option</string>
+    <string name="CustomDialogue">Custom</string>
+    <string name="NOTIFICATION">Notification</string>
+    <string name="AVISO">Aviso</string>
+    <string name="MensajeAlerta">Esto es un mensaje de alerta</string>
 </resources>

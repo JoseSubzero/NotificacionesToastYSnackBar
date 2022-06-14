@@ -7,6 +7,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import com.example.notificacionestoast.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
@@ -66,6 +67,14 @@ class MainActivity : AppCompatActivity() {
         sbLayout.addView(customLayout,0)
         s.setBackgroundTint(Color.YELLOW)
         s.show()
+    }
+
+    fun myAlert(view: View){
+        AlertDialog.Builder(this!!).setTitle(R.string.AVISO)
+            .setMessage(R.string.MensajeAlerta)
+            .setIcon(R.drawable.dialog_icon)
+            .setPositiveButton("Aceptar") {dialog, id -> Snackbar.make(view, "Has pulsado aceptar", Snackbar.LENGTH_SHORT).show()}
+
     }
 
 
